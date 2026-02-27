@@ -1,0 +1,84 @@
+{
+  "common": {
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Envoyer",
+    "success": "Succès",
+    "error": "Erreur",
+    "warning": "Avertissement",
+    "info": "Information",
+    "yes": "Oui",
+    "no": "Non",
+    "all": "Tous",
+    "none": "Aucun",
+    "select": "Sélectionner",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "from": "De",
+    "to": "À",
+    "viewMore": "Voir plus",
+    "viewLess": "Voir moins",
+    "showAll": "Tout afficher",
+    "hideAll": "Tout masquer"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "explore": "Explorer",
+    "creators": "Je suis Créateur",
+    "advertisers": "Je suis Annonceur",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "logout": "Déconnexion",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "dashboard": "Tableau de bord"
+  },
+  "hero": {
+    "title": "Monétisez votre Status WhatsApp",
+    "subtitle": "Nous connectons les créateurs de contenu aux marques qui souhaitent atteindre des audiences engagées via le Status WhatsApp.",
+    "searchPlaceholder": "Rechercher par niche, nom ou catégorie...",
+    "searchButton": "Rechercher des Créateurs",
+    "stats": {
+      "creators": "Créateurs actifs",
+      "campaigns": "Campagnes réalisées",
+      "paid": "Versé aux créateurs"
+    }
+  },
+  "categories": {
+    "featured": "À la Une",
+    "recent": "Récents",
+    "trending": "Tendance",
+    "all": "Tous"
+  },
+  "filters": {
+    "title": "Filtres avancés",
+    "priceRange": "Fourchette de prix",
+    "minPrice": "Prix min",
+    "maxPrice": "Prix max",
+    "niches": "Niches",
+    "selectNiches": "Sélectionner des niches",
+    "engagement": "Taux d'engagement",
+    "minEngagement": "Engagement min",
+    "availability": "Disponibilité",
+    "onlineNow": "En ligne maintenant",
+    "availableNow": "Disponible pour campagnes",
+    "verified": "Vérifiés uniquement",
+    "topPerformers": "Top Performers",
+    "clearAll": "Effacer les filtres",
+    "apply": "Appliquer les filtres",
+    "activeFilters": "filtres actifs"
+  },
+  "global": {
+    "platform": "Plateforme mondiale de publicité sur le Status WhatsApp",
+    "tagline": "Connecter les marques et les créateurs dans le monde entier"
+  }
+}

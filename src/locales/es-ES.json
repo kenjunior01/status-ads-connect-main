@@ -1,0 +1,398 @@
+{
+  "common": {
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "success": "Éxito",
+    "error": "Error",
+    "warning": "Advertencia",
+    "info": "Información",
+    "yes": "Sí",
+    "no": "No",
+    "all": "Todos",
+    "none": "Ninguno",
+    "select": "Seleccionar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "from": "Desde",
+    "to": "Hasta",
+    "viewMore": "Ver Más",
+    "viewLess": "Ver Menos",
+    "showAll": "Mostrar Todos",
+    "hideAll": "Ocultar Todos"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "explore": "Explorar",
+    "creators": "Soy Creador",
+    "advertisers": "Soy Anunciante",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "dashboard": "Panel"
+  },
+  "hero": {
+    "title": "Monetiza tu Estado de WhatsApp",
+    "subtitle": "Conectamos creadores de contenido con marcas que quieren alcanzar audiencias comprometidas a través de Estados de WhatsApp.",
+    "searchPlaceholder": "Buscar por nicho, nombre o categoría...",
+    "searchButton": "Buscar Creadores",
+    "stats": {
+      "creators": "Creadores Activos",
+      "campaigns": "Campañas Realizadas",
+      "paid": "Pagado a Creadores"
+    }
+  },
+  "categories": {
+    "featured": "Destacados",
+    "recent": "Recientes",
+    "trending": "Tendencias",
+    "all": "Todos"
+  },
+  "filters": {
+    "title": "Filtros Avanzados",
+    "priceRange": "Rango de Precio",
+    "minPrice": "Precio Mínimo",
+    "maxPrice": "Precio Máximo",
+    "niches": "Nichos",
+    "selectNiches": "Seleccionar nichos",
+    "engagement": "Tasa de Engagement",
+    "minEngagement": "Engagement Mínimo",
+    "availability": "Disponibilidad",
+    "onlineNow": "En Línea Ahora",
+    "availableNow": "Disponible para Campañas",
+    "verified": "Solo Verificados",
+    "topPerformers": "Top Performers",
+    "clearAll": "Limpiar Filtros",
+    "apply": "Aplicar Filtros",
+    "activeFilters": "filtros activos"
+  },
+  "niches": {
+    "lifestyle": "Lifestyle",
+    "tech": "Tecnología",
+    "fashion": "Moda",
+    "food": "Gastronomía",
+    "fitness": "Fitness",
+    "travel": "Viajes",
+    "beauty": "Belleza",
+    "finance": "Finanzas",
+    "education": "Educación",
+    "entertainment": "Entretenimiento",
+    "pets": "Mascotas",
+    "health": "Salud",
+    "business": "Negocios",
+    "sports": "Deportes"
+  },
+  "creator": {
+    "verified": "Verificado",
+    "online": "En Línea",
+    "offline": "Desconectado",
+    "responseRate": "Tasa de Respuesta",
+    "responseTime": "Tiempo de Respuesta",
+    "avgViews": "Promedio de Vistas",
+    "campaigns": "Campañas",
+    "reviews": "Reseñas",
+    "rating": "Calificación",
+    "startingAt": "Desde",
+    "contact": "Contactar",
+    "hire": "Contratar",
+    "addFavorite": "Agregar a Favoritos",
+    "removeFavorite": "Quitar de Favoritos",
+    "badges": {
+      "bronze": "Bronce",
+      "silver": "Plata",
+      "gold": "Oro",
+      "platinum": "Platino"
+    },
+    "profile": {
+      "about": "Acerca de",
+      "portfolio": "Portafolio",
+      "packages": "Paquetes",
+      "audience": "Audiencia",
+      "reviews": "Reseñas",
+      "stats": "Estadísticas"
+    },
+    "packages": {
+      "basic": "Básico",
+      "standard": "Estándar",
+      "premium": "Premium",
+      "status": "estados",
+      "delivery": "días de entrega",
+      "select": "Seleccionar"
+    }
+  },
+  "dashboard": {
+    "creator": {
+      "title": "Panel del Creador",
+      "welcome": "¡Hola, {{name}}! Gestiona tus campañas y monitorea tus ganancias",
+      "totalEarnings": "Total Ganado",
+      "monthlyEarnings": "Este Mes",
+      "activeCampaigns": "Campañas Activas",
+      "avgRating": "Calificación Promedio",
+      "overview": "Vista General",
+      "campaigns": "Campañas",
+      "earnings": "Ganancias",
+      "profile": "Perfil",
+      "performance": "Rendimiento",
+      "responseRate": "Tasa de Respuesta",
+      "completedCampaigns": "Campañas Completadas",
+      "profileViews": "Vistas del Perfil",
+      "nextSteps": "Próximos Pasos",
+      "noCampaigns": "Aún no tienes campañas. ¡Espera propuestas de anunciantes!",
+      "viewAvailable": "Ver Disponibles"
+    },
+    "advertiser": {
+      "title": "Panel del Anunciante",
+      "welcome": "¡Hola, {{name}}! Gestiona tus campañas y encuentra creadores",
+      "totalSpent": "Total Invertido",
+      "activeCampaigns": "Campañas Activas",
+      "completedCampaigns": "Completadas",
+      "avgROI": "ROI Promedio",
+      "overview": "Vista General",
+      "campaigns": "Campañas",
+      "creators": "Creadores",
+      "analytics": "Analytics",
+      "createCampaign": "Nueva Campaña",
+      "noCampaigns": "Aún no tienes campañas. ¡Comienza creando tu primera campaña!",
+      "startNow": "Comenzar Ahora"
+    },
+    "admin": {
+      "title": "Panel de Administración",
+      "totalUsers": "Total de Usuarios",
+      "totalCreators": "Creadores",
+      "totalAdvertisers": "Anunciantes",
+      "totalCampaigns": "Total de Campañas",
+      "totalRevenue": "Ingresos Totales",
+      "users": "Usuarios",
+      "creators": "Creadores",
+      "campaigns": "Campañas",
+      "settings": "Configuración"
+    }
+  },
+  "campaign": {
+    "title": "Título",
+    "description": "Descripción",
+    "budget": "Presupuesto",
+    "deadline": "Fecha Límite",
+    "status": "Estado",
+    "progress": "Progreso",
+    "details": "Detalles",
+    "chat": "Chat",
+    "analytics": "Analytics",
+    "statuses": {
+      "pending": "Pendiente",
+      "active": "Activa",
+      "completed": "Completada",
+      "cancelled": "Cancelada",
+      "rejected": "Rechazada"
+    },
+    "create": {
+      "title": "Crear Campaña",
+      "step1": "Detalles",
+      "step2": "Creador",
+      "step3": "Revisión",
+      "selectCreator": "Seleccionar un Creador",
+      "review": "Revisar Detalles"
+    }
+  },
+  "verification": {
+    "title": "Verificación de Publicación",
+    "status": "Estado de Verificación",
+    "uploadProof": "Subir Comprobante",
+    "proofType": "Tipo de Comprobante",
+    "screenshot": "Captura de Pantalla",
+    "video": "Video",
+    "link": "Enlace",
+    "viewCount": "Vistas",
+    "submit": "Enviar para Revisión",
+    "pending": "Esperando Revisión",
+    "approved": "Aprobado",
+    "rejected": "Rechazado",
+    "review": "Revisar Comprobante",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "notes": "Observaciones",
+    "notesPlaceholder": "Agregar observaciones sobre la revisión...",
+    "proofRequired": "Comprobante Obligatorio",
+    "deadline": "Fecha Límite de Envío",
+    "noProofs": "Ningún comprobante enviado aún",
+    "statuses": {
+      "not_started": "No Iniciado",
+      "proof_submitted": "Comprobante Enviado",
+      "under_review": "En Revisión",
+      "verified": "Verificado",
+      "rejected": "Rechazado"
+    }
+  },
+  "favorites": {
+    "title": "Favoritos",
+    "added": "¡Agregado a favoritos!",
+    "removed": "Eliminado de favoritos",
+    "empty": "Aún no tienes favoritos",
+    "addSome": "Explora creadores y agrégalos a favoritos"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "name": "Nombre",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "signUp": "Regístrate",
+    "signIn": "Inicia sesión",
+    "or": "o",
+    "continueWith": "Continuar con"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todas como leídas",
+    "empty": "Sin notificaciones",
+    "newCampaign": "Nueva campaña recibida",
+    "proofSubmitted": "Comprobante enviado",
+    "proofApproved": "Comprobante aprobado",
+    "proofRejected": "Comprobante rechazado",
+    "campaignCompleted": "Campaña completada"
+  },
+  "trust": {
+    "securePayment": "Pago Seguro",
+    "verifiedCreators": "Creadores Verificados",
+    "support": "Soporte 24/7",
+    "moneyBack": "Garantía de Devolución"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "terms": "Términos de Uso",
+    "privacy": "Privacidad",
+    "contact": "Contacto",
+    "help": "Ayuda"
+  },
+  "localization": {
+    "selectCountry": "Seleccionar País",
+    "selectCurrency": "Seleccionar Moneda",
+    "selectRegion": "Seleccionar Región",
+    "regions": {
+      "south_america": "Sudamérica",
+      "north_america": "Norteamérica",
+      "europe": "Europa",
+      "africa": "África"
+    }
+  },
+  "valueProposition": {
+    "badge": "Plataforma Global",
+    "title": "Una Solución para Todos",
+    "subtitle": "Ya seas una empresa buscando alcance global o un creador que quiere monetizar, StatusAds te conecta con el éxito.",
+    "trustedBy": "Utilizado por miles de empresas y creadores en más de 180 países",
+    "business": {
+      "badge": "Para Empresas",
+      "title": "Alcanza Miles de Millones de Usuarios",
+      "description": "Conecta tu marca con audiencias comprometidas a través de WhatsApp Status. Campañas dirigidas con resultados medibles.",
+      "benefits": {
+        "globalReach": {
+          "title": "Alcance Global",
+          "description": "Accede a más de 2 mil millones de usuarios de WhatsApp en 180+ países"
+        },
+        "targetedAds": {
+          "title": "Segmentación Precisa",
+          "description": "Elige creadores por nicho, región, idioma y demografía"
+        },
+        "analytics": {
+          "title": "Analytics en Tiempo Real",
+          "description": "Rastrea vistas, engagement y ROI de tus campañas"
+        },
+        "verified": {
+          "title": "Creadores Verificados",
+          "description": "Todos los creadores pasan por verificación de audiencia y calidad"
+        }
+      },
+      "stats": {
+        "users": "Usuarios WhatsApp",
+        "countries": "Países",
+        "openRate": "Tasa de Apertura"
+      },
+      "cta": "Anunciar Ahora"
+    },
+    "creator": {
+      "badge": "Para Creadores",
+      "title": "Monetiza Tu Estado",
+      "description": "Convierte tus vistas en ingresos. Ya seas influencer o persona común, tu estado tiene valor.",
+      "benefits": {
+        "monetize": {
+          "title": "Gana con Tu Alcance",
+          "description": "Recibe pago por cada campaña publicada en tu estado"
+        },
+        "flexible": {
+          "title": "Trabaja a Tu Ritmo",
+          "description": "Acepta campañas cuando quieras, sin compromiso fijo"
+        },
+        "payments": {
+          "title": "Pago Garantizado",
+          "description": "Recibe el pago en 24h después de la aprobación"
+        },
+        "growth": {
+          "title": "Crece en la Plataforma",
+          "description": "Sube de nivel y desbloquea campañas de mayor valor"
+        }
+      },
+      "stats": {
+        "paid": "Pagado a Creadores",
+        "creators": "Creadores Activos",
+        "payout": "Pago Rápido"
+      },
+      "cta": "Empezar a Ganar"
+    },
+    "trust": {
+      "securePayments": "Pagos Seguros",
+      "verifiedCreators": "Creadores Verificados",
+      "globalSupport": "Soporte Global 24/7",
+      "multiCurrency": "Multi-Moneda"
+    }
+  },
+  "emptyState": {
+    "noCreators": "¡Sé el primero en explorar!",
+    "noCreatorsDescription": "Nuevos creadores se registran cada día. Vuelve pronto o ajusta tus filtros.",
+    "noResults": "No se encontraron resultados",
+    "noResultsDescription": "Intenta ajustar los filtros o explorar otras categorías",
+    "tryAgain": "Limpiar Filtros"
+  },
+  "global": {
+    "platform": "Plataforma global de publicidad en WhatsApp Status",
+    "tagline": "Conectando marcas y creadores en todo el mundo"
+  },
+  "trustIndicators": {
+    "secureDesc": "100% protegido",
+    "verifiedDesc": "Todos validados",
+    "globalReach": "Alcance Global",
+    "globalDesc": "180+ países",
+    "multiCurrency": "Multi-Moneda",
+    "currencyDesc": "11+ monedas"
+  },
+  "socialProof": {
+    "creators": "Creadores Globales",
+    "paid": "Pagado a Creadores",
+    "rating": "4.9/5 - 2.1k reseñas",
+    "testimonial": "StatusAds transformó mis historias en una fuente de ingresos consistente. ¡Ya gané más de $5,000 en 3 meses!",
+    "user": "Usuario",
+    "userName": "María S., Creadora de Contenido"
+  },
+  "urgency": {
+    "limitedOffer": "Oferta Por Tiempo Limitado",
+    "signupBonus": "¡Regístrate hoy y obtén <strong>sin comisión</strong> en tu primer mes!",
+    "spotsLeft": "Solo quedan 47 lugares disponibles"
+  },
+  "searchFilters": {
+    "level": "Nivel"
+  }
+}
