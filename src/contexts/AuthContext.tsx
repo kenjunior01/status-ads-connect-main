@@ -20,12 +20,17 @@ const AuthContext = createContext<AuthContextType>({
 
 const fetchUserRole = async (userId: string): Promise<UserRole> => {
   try {
-    const { data } = await supabase.rpc("get_user_role", { _user_id: userId });
+    const { data, error } = await supabase.rpc("get_user_role", { _user_id: userId });
+    if (error) {
+      console.warn("Failed to fetch user role:", error.message);
+      return null;
+    }
     if (data === "admin" || data === "creator" || data === "advertiser") {
       return data;
     }
     return null;
-  } catch {
+  } catch (err) {
+    console.warn("Error fetching user role:", err);
     return null;
   }
 };
@@ -36,35 +41,51 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [loading, setLoading] = useState(true);
 
   const loadSession = async () => {
-    setLoading(true);
-    const {
-      data: { session },
-    } = await supabase.auth.getSession();
-    const sessionUser = session?.user ?? null;
-    setUser(sessionUser);
-    if (sessionUser) {
-      const userRole = await fetchUserRole(sessionUser.id);
-      setRole(userRole);
-    } else {
-      setRole(null);
+    try {
+      setLoading(true);
+      const {
+        data: { session },
+        error,
+      } = await supabase.auth.getSession();
+      
+      if (error) {
+        console.warn("Failed to get session:", error.message);
+        setLoading(false);
+        return;
+      }
+      
+      const sessionUser = session?.user ?? null;
+      setUser(sessionUser);
+      if (sessionUser) {
+        const userRole = await fetchUserRole(sessionUser.id);
+        setRole(userRole);
+      } else {
+        setRole(null);
+      }
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   useEffect(() => {
     loadSession();
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      const sessionUser = session?.user ?? null;
-      setUser(sessionUser);
-      if (sessionUser) {
-        fetchUserRole(sessionUser.id).then(setRole);
-      } else {
-        setRole(null);
-      }
-    });
-    return () => subscription.unsubscribe();
+    
+    try {
+      const {
+        data: { subscription },
+      } = supabase.auth.onAuthStateChange((_event, session) => {
+        const sessionUser = session?.user ?? null;
+        setUser(sessionUser);
+        if (sessionUser) {
+          fetchUserRole(sessionUser.id).then(setRole);
+        } else {
+          setRole(null);
+        }
+      });
+      return () => subscription?.unsubscribe();
+    } catch (err) {
+      console.warn("Failed to setup auth listener:", err);
+    }
   }, []);
 
   return (

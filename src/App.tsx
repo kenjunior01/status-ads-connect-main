@@ -110,7 +110,7 @@ function App() {
           <BrowserRouter>
             <AuthProvider>
               <NotificationProvider>
-                <div id="app-wrapper" className="min-h-screen bg-background pb-14 md:pb-0 theme-whatsapp">
+                <div id="app-wrapper" className="min-h-screen bg-background pb-14 md:pb-0">
                   <Navigation />
                   <ServiceStatusBanner />
                   <ReminderScheduler />
