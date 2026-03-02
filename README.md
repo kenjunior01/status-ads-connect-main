@@ -48,6 +48,45 @@ npm run dev
 - Click on the "Code" button (green button) near the top right.
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
+
+## Deployment
+
+This project is configured for deployment on Vercel. See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
+**Quick Deploy to Vercel:**
+```sh
+npm install -g vercel
+vercel
+```
+
+**Environment Variables Required:**
+- `VITE_SUPABASE_URL` - Your Supabase project URL
+- `VITE_SUPABASE_PUBLISHABLE_KEY` - Your Supabase public API key
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components (routed)
+├── contexts/      # React contexts (Auth, etc)
+├── hooks/         # Custom React hooks
+├── lib/           # Utilities and helpers
+├── locales/       # i18n translations
+├── integrations/  # External service integrations
+└── App.tsx        # Main app component
+```
+
+## Features
+
+- Built with React 18, TypeScript, and Vite
+- UI Components from shadcn/ui and Radix UI
+- Internationalization (i18n) with 4 languages
+- Supabase integration for backend
+- Responsive design with Tailwind CSS
+- Form handling with React Hook Form
+- State management with TanStack Query
+- Routing with React Router v6
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
